@@ -1,0 +1,18 @@
+/* simple plain CSS for the demo */
+:root { --bg:#f6f7fb; --card:#ffffff; --accent:#2563eb; --muted:#666; }
+body { margin:0; font-family:Inter, system-ui, Arial; background:var(--bg); color:#111; }
+.container { max-width:820px; margin:28px auto; padding:20px; }
+header h1 { margin:0; font-size:28px; }
+.subtitle { color:var(--muted); margin:6px 0 16px; }
+.panel { background:var(--card); padding:18px; border-radius:8px; box-shadow:0 6px 18px rgba(20,20,30,0.04); margin-bottom:16px; }
+.hidden { display:none; }
+.quiz-card { border:1px solid #eef2ff; padding:12px; border-radius:8px; display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+.btn { background:var(--accent); color:#fff; border:0; padding:8px 12px; border-radius:6px; cursor:pointer; }
+.choice { border:1px solid #eee; padding:10px; margin:8px 0; border-radius:6px; cursor:pointer; display:block; }
+.choice.correct { background:#e6ffed; border-color:#b7f0c6; }
+.choice.wrong { background:#ffecec; border-color:#ffbcbc; }
+.meta { color:var(--muted); font-size:13px; }
+.result-good { color:green; font-weight:bold; }
+.result-bad { color:crimson; font-weight:bold; }
+.small { font-size:13px; color:var(--muted); }
+.history-item { border-top:1px dashed #f0f0f0; padding:8px 0; }
